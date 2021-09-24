@@ -12,7 +12,7 @@ const Cart = (props) => {
             <h3>Order summary</h3>
             <h5>Items ordered:{props.cart.length}</h5>
             <br />
-            <p>Total:{total}</p>
+            <p>Total:{total}$</p>
         </div>
     );
 };
